@@ -1,0 +1,9 @@
+[
+  
+{ "nombre": "sebastian", "email": "sebas@cypress.io", "dir1": "Mi casa 12", "dir2": "Mi calle 1110" },
+{ "nombre": "sebastian2", "email": "roberto@cypress.io", "dir1": "Mi casa 13", "dir2": "Mi calle 11100" },
+{ "nombre": "sebastian3", "email": "capellan@cypress.io", "dir1": "Mi casa 134", "dir2": "Mi calle 111000" },
+{ "nombre": "sebastian4", "email": "perez@cypress.io", "dir1": "Mi casa 15", "dir2": "Mi calle 111111" }
+
+
+]

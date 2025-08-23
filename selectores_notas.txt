@@ -1,0 +1,24 @@
+SELECTORES CSS
+
+---CSS aributos y ID, este nos indica un ID y además este tiene que ser tipo texto----
+
+#userName[type='text']
+input#userName[type='text']
+
+
+XPATH
+
+----Este XPATH funciona con los operadores logicos AND & OR, selecciona una u otra dirección XPATH en el caso del OR,
+y en el caso del AND tiene que buscar un elemento con ambas especificaciones
+
+//input[@id='userName' or @type='text']
+
+
+----Este XPATH funciona por texto, en este caso busca un SPAN que tenga la frase 'Dynamic Properties'
+
+//span[text()='Dynamic Properties']
+
+
+----Este XPATH con contains selecciona todos los span que contienen el texto Box----
+    
+//span[contains(text(), 'Box')]

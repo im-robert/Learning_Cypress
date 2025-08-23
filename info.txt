@@ -1,0 +1,13 @@
+!!!
+
+
+1. npm init
+
+2. npm install cypress --save-dev => Instalacion
+2.1 -> npm cypress install --force
+
+
+3. node_modules\.bin\cypress open
+3.1 -> npm cypress open
+
+4. Parar consola: CTRL + C
