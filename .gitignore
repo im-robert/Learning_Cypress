@@ -1,5 +1,6 @@
 node_modules/
 
 info.txt
-
+*.mp4
+*.jpeg
 selectores__notas.txt

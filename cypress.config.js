@@ -5,6 +5,7 @@ const createEsbuildPlugin =
 const createBundler = require("@bahmutov/cypress-esbuild-preprocessor");
 
 module.exports = defineConfig({
+  projectId: "fqqhh9",
   e2e: {
     async setupNodeEvents(on, config) {
       // Requerido por cucumber-preprocessor
