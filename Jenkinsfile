@@ -11,7 +11,7 @@ pipeline {
                         label "Agente2_1"
                     }
                     steps {
-                        git url: "https://github.com/im-robert/Learning_Cypress.git"
+                        git scm
                         bat 'npm install'
                         bat 'npx cypress install'
                         bat 'npx cypress run --record --key 5e9f65ad-3ad7-406e-b2f1-c7bdf0838527 --parallel'
@@ -23,7 +23,7 @@ pipeline {
                         label "Agente2_2"
                     }
                     steps {
-                        git url: "https://github.com/im-robert/Learning_Cypress.git"
+                        gitscm
                         bat 'npm install'
                         bat 'npx cypress install'
                         bat 'npx cypress run --record --key 5e9f65ad-3ad7-406e-b2f1-c7bdf0838527 --parallel'
@@ -35,7 +35,7 @@ pipeline {
                         label "Agente2_3"
                     }
                     steps {
-                        git url: "https://github.com/im-robert/Learning_Cypress.git"
+                        git scm
                         bat 'npm install'
                         bat 'npx cypress install'
                         bat 'npx cypress run --record --key 5e9f65ad-3ad7-406e-b2f1-c7bdf0838527 --parallel'
