@@ -23,7 +23,7 @@ pipeline {
                         label "Agente2_2"
                     }
                     steps {
-                        gitscm
+                        git scm
                         bat 'npm install'
                         bat 'npx cypress install'
                         bat 'npx cypress run --record --key 5e9f65ad-3ad7-406e-b2f1-c7bdf0838527 --parallel'
